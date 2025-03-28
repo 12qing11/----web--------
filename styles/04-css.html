@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>第十四届全国人民代表大会主题</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(241, 195, 195);
+        }
+        header {
+            background-color: #333;
+            background-image: url("../../images/background.jpg");  /* 修正图片路径 */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 2em 0;
+            text-align: center;
+        }
+        header h1 {
+            color: #fff;
+            margin: 0;
+            padding: 20px 0;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>第十四届全国人民代表大会主题</h1>
+    </header>
+        <section>
+            <h2>背景</h2>
+           <div>
+            <p>
+                第十四届全国人民代表大会主题是“全面深化改革，构建现代化强国”。
+            </p>
+            <p>
+                这一主题表达了人民代表大会的重要性和必要性。
+            </p>
+            <p>
+                2025年3月5日下午,习近平在参加他所在的十四届全国人大三次会议江苏代表团审议时强调,圆满实现“十四五”发展目标,经济大省要挑大梁。江苏要把握好挑大梁的着力点,在推动科技创新和产业创新融合上打头阵,在推进深层次改革和高水平开放上勇争先,在落实国家重大发展战略上走在前,在促进全体人民共同富裕上作示范。
+            </p>
+            </div>
+        </section>
+    <section>
+            <h2>相关信息展示（盒模型）</h2>
+            <style>
+                .container {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    padding: 20px;
+                    gap: 30px;
+                }
+                .boxes {
+                    flex: 0 0 auto;
+                }
+                .video-container {
+                    flex: 0 0 auto;
+                    margin-top: 20px;
+                }
+                .box {
+                    width: 300px;
+                    height: auto;
+                    background-color:rgb(240, 224, 222);
+                    border: 5px dashed #333;
+                    padding: 20px;
+                    margin: 20px;
+                    box-sizing: border-box;
+                }
+                .box img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                .box h3 {
+                    color: #333;
+                    margin-bottom: 10px;
+                }
+                .box p {
+                    line-height: 1.6;
+                }
+            </style>
+            <div class="container">
+                <div class="boxes">
+                    <div class="box">
+                        <h3>会议主题</h3>
+                        <img src="../images/meeting.jpg" alt="会议图片">
+                        <p>第十四届全国人民代表大会主题是"全面深化改革，构建现代化强国"。</p>
+                        <ul>
+                            <li>时间:2025年3月</li>
+                            <li>地点：北京人民大会堂</li>
+                            <li>参会人数:2929人</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>会议成果</h3>
+                        <p>推动科技创新和产业创新融合</p>
+                        <p>推进深层次改革和高水平开放</p>
+                        <p>促进全体人民共同富裕</p>
+                    </div>
+                </div>
+                <div class="video-container">
+                    <h3>第十四届全国人民代表大会会议视频</h3>
+                    <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114144627917743&bvid=BV1HAQLYmEud&cid=28816641109&p=1" 
+                        scrolling="no" 
+                        border="0" 
+                        frameborder="no" 
+                        framespacing="0" 
+                        allowfullscreen="true"
+                        width="1000" 
+                        height="600">
+                    </iframe>
+                </div>
+            </div>
+    </section>
+    <main>
+    <section>
+        <h2>布局展示</h2>
+        <div>
+            <h3>会议议程安排</h3>
+            <style>
+                .flex-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                    border-radius: 10px;
+                }
+                .flex-item {
+                    flex: 1;
+                    min-width: 250px;
+                    padding: 15px;
+                    background-color: white;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+                .date {
+                    color: #e74c3c;
+                    font-weight: bold;
+                }
+            </style>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p class="date">3月5日</p>
+                    <p>开幕会：听取政府工作报告</p>
+                    <p>审查经济计划和预算报告</p>
+                </div>
+                <div class="flex-item">
+                    <p class="date">3月7日</p>
+                    <p>第二次全体会议</p>
+                    <p>听取全国人大常委会工作报告</p>
+                </div>
+                <div class="flex-item">
+                    <p class="date">3月10日</p>
+                    <p>第三次全体会议</p>
+                    <p>表决国务院机构改革方案</p>
+                </div>
+                <div class="flex-item">
+                    <p class="date">3月13日</p>
+                    <p>闭幕会</p>
+                    <p>表决各项决议草案</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <section>
+        <h2>动画效果展示</h2>
+        <style>
+            @keyframes slideIn {
+                from {
+                    transform: translateX(-100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.1); }
+                100% { transform: scale(1); }
+            }
+
+            .meeting-title {
+                background-color: #e74c3c;
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin: 20px;
+                animation: slideIn 1.5s ease-out;
+            }
+
+            .meeting-info {
+                background-color: #f39c12;
+                color: white;
+                padding: 15px;
+                margin: 10px;
+                border-radius: 5px;
+                animation: pulse 2s infinite;
+                transition: all 0.2s ease-in-out;
+            }
+
+            .animation-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
+            }
+        </style>
+
+        <div class="animation-container">
+            <div class="meeting-title">
+                <h3>第十四届全国人民代表大会</h3>
+                <p>全面深化改革，构建现代化强国</p>
+            </div>
+
+            <div class="meeting-info">
+                <h4>重要议程</h4>
+                <p>时间:2025年3月5日-13日</p>
+                <p>地点：北京人民大会堂</p>
+            </div>
+        </div>
+    </section>
+            <h2>动画两会</h2>
+            动画必须要有起始状态、结束状态、时长
+                <style>
+                    .animation-box {
+                        width: 100px;
+                        height: 100px;
+                        background-color:rgb(226, 68, 40);
+                        text-align: center;
+                        line-height: 100px;
+                        margin-top:2em;
+                        animation-name: example;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                        animation: move 2s infinite alternate;
+                    }
+                    .animation-box:hover {
+                        border-radius: 100px;
+                        background-color:rgb(235, 217, 165);
+                        transition: all 0.2s ease-in-out;
+                    }
+                </style>
+                <div class="animation-box">两会</div>  
+    </section>
+  </body>
+</html>
