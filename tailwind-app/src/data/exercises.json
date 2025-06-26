@@ -2,17 +2,19 @@
   {
     "id": 1,
     "title": "HTML 基础结构练习",
-    "description": "学习并实践HTML5的基本文档结构，包括头部、主体和常用标签。",
+    "description": "学习并实践HTML5的基本文档结构,包括头部、主体和常用标签。",
     "imageUrl": "https://images.unsplash.com/photo-1600695268275-1a6468700bd5",
     "link": "/exercises/html-basics",
+    "knowledge": "HTML 文件后缀名为“.htm”或“.html”,是一种包含了 HTML 标记的文本文件，我们通常所说的网页实质上就是 HTML 文件，",
     "tags": ["HTML", "基础"]
   },
   {
     "id": 2,
     "title": "CSS 盒模型与布局",
-    "description": "深入理解CSS盒模型，并使用Flexbox和Grid进行响应式页面布局。",
+    "description": "深入理解CSS盒模型,并使用Flexbox和Grid进行响应式页面布局。",
     "imageUrl": "https://tse4-mm.cn.bing.net/th/id/OIP-C.aTm6wlirwRiAUaoYgmbQjAHaEK?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2",
     "link": "/exercises/css-layout",
+    "knowledge": "盒模型是 CSS 中一个重要的概念，它描述了 HTML 元素在页面中的布局方式。盒模型由四个部分组成：内容区、内边距、边框和外边距。",
     "tags": [
       "CSS",
       "Flexbox",
@@ -23,25 +25,28 @@
   {
     "id": 3,
     "title": "JavaScript DOM 操作",
-    "description": "通过JavaScript动态操作DOM元素，实现交互式网页功能。",
+    "description": "通过JavaScript动态操作DOM元素,实现交互式网页功能。",
     "imageUrl": "https://oss.gaojie.cc/202209012101601.jpg",
     "link": "/exercises/js-dom",
+    "knowledge": "DOM 是 Document Object Model 的缩写，即文档对象模型。它是 HTML 和 XML 文档的编程接口。",
     "tags": ["JavaScript", "DOM", "交互"]
   },
   {
     "id": 4,
     "title": "React 组件化开发",
-    "description": "学习使用React构建可复用的UI组件，理解状态和属性。",
+    "description": "学习使用React构建可复用的UI组件,理解状态和属性。",
     "imageUrl": "https://pic2.zhimg.com/v2-a22f162f00b6bb41042358fdb8a9b05a_720w.jpg?source=172ae18b",
     "link": "/exercises/react-components",
+    "knowledge": "React 是一个用于构建用户界面的 JavaScript 库。它采用了组件化的开发方式，使得开发人员可以将界面拆分成一个个小的、可复用的组件。",
     "tags": ["React", "组件", "SPA"]
   },
   {
     "id": 5,
     "title": "Next.js 核心概念",
-    "description": "学习Next.js的核心功能，包括页面路由、API路由和静态生成等。",
+    "description": "学习Next.js的核心功能,包括页面路由、API路由和静态生成等。",
     "imageUrl": "https://tse4-mm.cn.bing.net/th/id/OIP-C.J71kAzixRM4BLj0UzufiUwHaEK?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2",
     "link": "/exercises/nextjs-core",
+    "knowledge": "Next.js 是一个基于 React 的前端框架,它提供了一些核心功能,如页面路由、API 路由和静态生成等。",
     "tags": ["Next.js", "SSR", "SSG"]
   }
 ]

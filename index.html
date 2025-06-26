@@ -38,6 +38,30 @@
             color: #333;
             font-weight: bold;
         }
+        #question-container {
+            margin-top: 20px;
+        }
+        #question-input {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #submit-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #answer-container {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -49,5 +73,16 @@
             </li>
         </ul>
     </div>
+    <script
+        src="https://ai.youdao.com/saas/qanything/js/agent-iframe-min.js"
+        id="qanything-iframe"
+        data-agent-src="https://ai.youdao.com/saas/qanything/#/bots/0A5B7093A1A14317/share"
+        data-default-open=false
+        data-drag=false
+        data-open-icon="https://download.ydstatic.com/ead/icon-qanything-iframe-btn.png"
+        data-close-icon="https://download.ydstatic.com/ead/icon-qanything-iframe-btn.png"
+        defer
+      >
+    </script>
 </body>
 </html>
