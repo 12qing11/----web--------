@@ -30,9 +30,9 @@ export default function ExerciseCard({
         </p>
         {tags && tags.length > 0 && (
           <div className="mb-4">
-            {tags.map((tag, index) => (
+            {tags.map((tag) => (
               <span
-                key={index}
+                key={tag}
                 className="inline-block bg-sky-100 text-sky-700 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full"
               >
                 {tag}

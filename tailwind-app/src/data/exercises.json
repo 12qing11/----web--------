@@ -11,15 +11,20 @@
     "id": 2,
     "title": "CSS 盒模型与布局",
     "description": "深入理解CSS盒模型，并使用Flexbox和Grid进行响应式页面布局。",
-    "imageUrl": "https://source.unsplash.com/random/600x400?css,layout",
+    "imageUrl": "https://tse4-mm.cn.bing.net/th/id/OIP-C.aTm6wlirwRiAUaoYgmbQjAHaEK?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2",
     "link": "/exercises/css-layout",
-    "tags": ["CSS", "Flexbox", "Grid", "响应式"]
+    "tags": [
+      "CSS",
+      "Flexbox",
+      "Grid",
+      "响应式"
+    ]
   },
   {
     "id": 3,
     "title": "JavaScript DOM 操作",
     "description": "通过JavaScript动态操作DOM元素，实现交互式网页功能。",
-    "imageUrl": "https://source.unsplash.com/random/600x400?javascript,dom",
+    "imageUrl": "https://oss.gaojie.cc/202209012101601.jpg",
     "link": "/exercises/js-dom",
     "tags": ["JavaScript", "DOM", "交互"]
   },
@@ -27,8 +32,16 @@
     "id": 4,
     "title": "React 组件化开发",
     "description": "学习使用React构建可复用的UI组件，理解状态和属性。",
-    "imageUrl": "https://source.unsplash.com/random/600x400?react,components",
-    "link": "",
+    "imageUrl": "https://pic2.zhimg.com/v2-a22f162f00b6bb41042358fdb8a9b05a_720w.jpg?source=172ae18b",
+    "link": "/exercises/react-components",
     "tags": ["React", "组件", "SPA"]
+  },
+  {
+    "id": 5,
+    "title": "Next.js 核心概念",
+    "description": "学习Next.js的核心功能，包括页面路由、API路由和静态生成等。",
+    "imageUrl": "https://tse4-mm.cn.bing.net/th/id/OIP-C.J71kAzixRM4BLj0UzufiUwHaEK?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2",
+    "link": "/exercises/nextjs-core",
+    "tags": ["Next.js", "SSR", "SSG"]
   }
 ]
