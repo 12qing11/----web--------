@@ -1,0 +1,9 @@
+{
+  "name": "my-wakatime-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2023-05-01",
+  "vars": {
+    "WAKATIME_API_KEY": "{{ secrets.WAKATIME_API_KEY }}"
+  }
+}
+

@@ -1,7 +1,7 @@
 // src/app/github-stats/commits/[commitId]/page.js
 
 async function getCommitDetails(commitId) {
-    const res = await fetch(`https://api.github.com/repos/yangjh-xbmu/Web-develop/commits/${commitId}`);
+    const res = await fetch(`https://api.github.com/repos/12qing11/----web--------/commits/${commitId}`);
     if (!res.ok) {
       throw new Error(`Failed to fetch commit details for ${commitId}`);
     }
@@ -90,6 +90,6 @@ async function getCommitDetails(commitId) {
     const { commitId } = params;
     return {
       title: `Commit ${commitId.substring(0,7)} - GitHub Stats`,
-      description: `Details for commit ${commitId} from yangjh-xbmu/Web-develop`,
+      description: `Details for commit ${commitId} from 12qing11/----web--------`,
     };
   }
